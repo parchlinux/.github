@@ -1,8 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: report bug
-    url: https://github.com/parch-os/bug/issues/new/choose
-    about: Please report operating system problems and bugs only here or on the Discord server.
   - name: discord server
     url: https://discord.gg/m5HnfjXTT6
     about: parch-os discord server

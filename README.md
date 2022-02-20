@@ -1,1 +1,1 @@
-# .github
+# parch-os organization
