@@ -7,4 +7,4 @@
 The parch is an os based on the [Arch Linux](https://archlinux.org), Parch tries to look like the Arch but with an easy and Graphical installation.
 
 * Parch fourm in [discord](https://discord.gg/hUagd5THDS)
-* Parch os page in [virgool](virgool.io/parchos)
+* Parch os Articles in [virgool](https://virgool.io/parchos)
