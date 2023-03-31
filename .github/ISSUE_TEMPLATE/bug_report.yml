@@ -1,10 +1,10 @@
-name: Parch-os Bug Report
-description: File a bug report
+name: Parchlinux but report
+description: reporting the Parchlinux's applications & services bugs.
 title: "[Bug]: "
 labels: ["bug"]
-assignees:
+assignees:  # assign to core
   - mmdbalkhi
-  - bsslinux
+  - behdanisohrab
 body:
   - type: markdown
     attributes:
@@ -20,13 +20,14 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: windowmanager
+    id: service
     attributes:
-      label: What WM are you seeing the problem on?
-      multiple: true
+      label: In which part of the Parchlinux is there a problem?
+      multiple: false
       options:
-        - awesome
-        - plasma
+        - DE/WM
+        - APPs
+        - Other
   - type: textarea
     id: errpr
     attributes:
