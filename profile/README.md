@@ -4,7 +4,7 @@
     <img src="https://raw.githubusercontent.com/parchlinux/artwork/main/Logo/newlogo/logo.svg" alt="Parch Logo" width="128" height="128"/>
 </p>
 
-The parch is an os based on the [Arch Linux](https://archlinux.org), Parch tries to look like the Arch but with an easy and Graphical installation.
+The parch is an Linux Distrobution based on the [Arch Linux](https://archlinux.org), Parch tries to look like the Arch but with an easy and Graphical installation.
 
 * [Parch forum](https://forum.parchlinux.com)
 * Parch forum in [discord](https://discord.gg/6B6YUr9zzP)
