@@ -1,9 +1,9 @@
-name: Parchlinux but report
+name: Parchlinux bug report
 description: reporting the Parchlinux's applications & services bugs.
 title: "[Bug]: "
 labels: ["bug"]
 assignees:  # assign to core
-  - mmdbalkhi
+  - metantesan
   - behdanisohrab
 body:
   - type: markdown
