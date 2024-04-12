@@ -6,7 +6,7 @@
 
 Parch is an [Arch Linux](https://archlinux.org) based Linux distribution designed with the needs of Persian linux users in mind. It includes an installer and multiple customized desktop environments.
 
-It comes in [multiple varieties](https://parchlinux.com/download) including GNOME, KDE Plasma, XFCE, and CINNAMON.
+It comes in [multiple varieties](https://parchlinux.com/download) including GNOME and KDE Plasma.
 
 * [Parch website](https://parchlinux.com)
 * [Parch forum](https://forum.parchlinux.com)
