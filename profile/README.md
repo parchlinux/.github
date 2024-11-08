@@ -1,5 +1,9 @@
 #  Parch Linux
 
+# **Developmen is now done in our Gitlab**
+
+[ParchLinux Gitlab](https://git.parchlinux.com)
+
 <p style="text-align:center">
     <img src="https://raw.githubusercontent.com/parchlinux/artwork/main/Logo/newlogo/logo.svg" alt="Parch Logo" width="128" height="128"/>
 </p>
