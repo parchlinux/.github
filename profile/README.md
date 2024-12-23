@@ -1,6 +1,6 @@
 #  Parch Linux
 
-# **Developmen is now done in our Gitlab**
+# **Development is now done in our Gitlab**
 
 [ParchLinux Gitlab](https://git.parchlinux.com)
 
