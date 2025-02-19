@@ -1,16 +1,16 @@
 #  Parch Linux
 
-# **Development is now done in our Gitlab**
+# **⚠️  All Development is now done on our Forgejo instance**
 
-[ParchLinux Gitlab](https://git.parchlinux.com)
+[ParchLinux Forgejo](https://git.parchlinux.com)
 
 <p style="text-align:center">
-    <img src="https://raw.githubusercontent.com/parchlinux/artwork/main/Logo/newlogo/logo.svg" alt="Parch Logo" width="128" height="128"/>
+    <img src="https://raw.githubusercontent.com/parchlinux/artwork/refs/heads/main/Logo/NewLogo/logo.svg" alt="Parch Logo" width="128" height="128"/>
 </p>
 
-The parch is an Linux Distrobution based on the [Arch Linux](https://archlinux.org), Parch tries to look like the Arch but with an easy and Graphical installation.
+Parch Linux is a Linux Distrobution based on [Arch Linux](https://archlinux.org), Parch tries to be [simple like Arch](https://wiki.archlinux.org/title/Arch_Linux#Simplicity) but with compromises where ease of use takes priority.
 
-* [Parch forum](https://forum.parchlinux.com)
-* Parch forum in [discord](https://discord.gg/6B6YUr9zzP)
-* Parch Linux Articles in [virgool](https://virgool.io/parchlinux)
-* Parch Linux Channel in [Telegram](https://t.me/parchlinux)
+* [Official Parch forum](https://forum.parchlinux.com)
+* Parch on [discord](https://discord.gg/6B6YUr9zzP)
+* Blog Articles on [virgool](https://virgool.io/parchlinux)
+* News Channel on [Telegram](https://t.me/parchlinux)
