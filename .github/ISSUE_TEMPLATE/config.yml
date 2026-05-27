@@ -1,5 +1,8 @@
-blank_issues_enabled: true 
+blank_issues_enabled: false
 contact_links:
-  - name: discord server
+  - name: Parch Linux Discord
     url: https://discord.gg/m5HnfjXTT6
-    about: ParchLinux discord server
+    about: Ask questions and get community support.
+  - name: Security Contact
+    url: mailto:security@parchlinux.com
+    about: Report security vulnerabilities privately.

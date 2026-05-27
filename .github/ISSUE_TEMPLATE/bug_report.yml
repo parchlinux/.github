@@ -1,44 +1,67 @@
-name: Parchlinux bug report
-description: reporting the Parchlinux's applications & services bugs.
+name: Bug report
+description: Report a reproducible issue in Parch Linux components.
 title: "[Bug]: "
 labels: ["bug"]
-assignees:  # assign to core
+assignees:
   - metantesan
   - behdanisohrab
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for reporting an issue. Please provide enough detail to reproduce it.
   - type: textarea
-    id: what-happened
+    id: summary
     attributes:
       label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      description: Include what you expected to happen and what happened instead.
+      placeholder: Describe the problem clearly.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Provide exact steps in order.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Parch Linux version
+      description: Output of `cat /etc/os-release` or release identifier.
+      placeholder: e.g. Parch Linux rolling (2026.05)
     validations:
       required: true
   - type: dropdown
-    id: service
+    id: area
     attributes:
-      label: In which part of the Parchlinux is there a problem?
-      multiple: false
+      label: Affected area
       options:
-        - DE/WM
-        - APPs
+        - Desktop environment or window manager
+        - Core applications
+        - Installer or setup
+        - Packaging and updates
+        - Documentation
         - Other
+    validations:
+      required: true
   - type: textarea
-    id: errpr
+    id: logs
     attributes:
       label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      description: Paste relevant logs, command output, or traces.
       render: shell
   - type: checkboxes
-    id: terms
+    id: checks
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/parch-os/.github/blob/main/CODE_OF_CONDUCT.md)
+      label: Confirmation
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: I searched existing issues and did not find a duplicate.
+          required: true
+        - label: I agree to follow this project's Code of Conduct.
           required: true

@@ -1,0 +1,25 @@
+name: Stale issue and PR management
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - name: Mark stale issues and pull requests
+        uses: actions/stale@v9
+        with:
+          stale-issue-message: "This issue has been inactive and is marked stale. It will close automatically if no new activity occurs."
+          stale-pr-message: "This pull request has been inactive and is marked stale. It will close automatically if no new activity occurs."
+          close-issue-message: "Closing due to prolonged inactivity. Reopen with updated details if still relevant."
+          close-pr-message: "Closing due to prolonged inactivity. Reopen or open a new PR with updated changes if still relevant."
+          days-before-stale: 45
+          days-before-close: 14
+          exempt-issue-labels: "security,pinned"
+          exempt-pr-labels: "security,pinned"

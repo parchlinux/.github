@@ -1,0 +1,24 @@
+name: Configuration help
+description: Ask for help with configuration or setup.
+title: "[Help]: "
+labels: ["question"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: What are you trying to do?
+      description: Describe your goal and current setup.
+    validations:
+      required: true
+  - type: textarea
+    id: attempts
+    attributes:
+      label: What have you tried?
+      description: List commands, docs, or config changes already tried.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment details
+      description: Include desktop, hardware, and relevant package versions.

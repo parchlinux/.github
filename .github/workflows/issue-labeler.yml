@@ -1,0 +1,29 @@
+name: Auto-label issues by template
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Label help issues
+        if: contains(github.event.issue.title, '[Help]:')
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: question
+
+      - name: Label feature issues
+        if: contains(github.event.issue.title, '[Feature]:')
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: enhancement
+
+      - name: Label bug issues
+        if: contains(github.event.issue.title, '[Bug]:')
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: bug
